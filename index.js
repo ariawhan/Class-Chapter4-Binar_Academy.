@@ -25,6 +25,7 @@ class Vehicle {
     this.rodaKendaraan = rodaKendaraan;
     this.negaraProduksi = negaraProduksi;
   }
+  // Method info
   info() {
     console.log(
       "Janis Kendaraan Roda " +
