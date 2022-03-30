@@ -19,8 +19,7 @@
     rumus total price setelah di tambah pajak utk method totalPrice, bisa kalian googling sendiri yah.
 */
 
-//Class
-
+//Class Super
 class Vehicle {
   constructor(rodaKendaraan, negaraProduksi) {
     this.rodaKendaraan = rodaKendaraan;
