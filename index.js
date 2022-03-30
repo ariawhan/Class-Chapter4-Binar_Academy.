@@ -54,4 +54,14 @@ class Car extends Vehicle {
   totalHarga() {
     return (1 + this.pajak) * this.hargaKendaraan;
   }
+  // Menimpa//Override method info() in Child Class
+  info() {
+    super.info();
+    console.log(
+      "Kendaraan ini nama mereknya " +
+        this.merekKendaraan +
+        " dengan total harga Rp." +
+        this.totalHarga
+    );
+  }
 }
