@@ -35,3 +35,19 @@ class Vehicle {
     );
   }
 }
+
+// Child Class From Vehicle
+class Car extends Vehicle {
+  constructor(
+    rodaKendaraan,
+    negaraProduksi,
+    merekKendaraan,
+    hargaKendaraan,
+    pajak
+  ) {
+    super(rodaKendaraan, negaraProduksi);
+    this.merekKendaraan = merekKendaraan;
+    this.hargaKendaraan = hargaKendaraan;
+    this.pajak = pajak;
+  }
+}
