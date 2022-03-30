@@ -50,4 +50,8 @@ class Car extends Vehicle {
     this.hargaKendaraan = hargaKendaraan;
     this.pajak = pajak;
   }
+  // Method total Harga
+  totalHarga() {
+    return (1 + this.pajak) * this.hargaKendaraan;
+  }
 }
