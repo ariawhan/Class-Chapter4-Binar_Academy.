@@ -26,4 +26,7 @@ class Vehicle {
     this.rodaKendaraan = rodaKendaraan;
     this.negaraProduksi = negaraProduksi;
   }
+  info () {
+      console.log('Janis Kendaraan Roda ' + this.rodaKendaraan ' dari negara ' + this.negaraProduksi)
+  }
 }
