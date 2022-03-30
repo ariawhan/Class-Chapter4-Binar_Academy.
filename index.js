@@ -65,3 +65,9 @@ class Car extends Vehicle {
     );
   }
 }
+
+//Instance
+const motor = new Vehicle(2, "Indonesia");
+motor.info();
+const mobil = new Car(4, "Amerika", "Tesla", 800000000, 10);
+mobil.info();
