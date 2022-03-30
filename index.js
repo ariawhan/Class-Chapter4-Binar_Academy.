@@ -1,7 +1,7 @@
+//Soal
 // 1. bikin class Vehicle (Kendaraan)
 // attribut nya (constructor) : jenis kendaraan (roda berapa 2/4 atau lainnya), negara produksi,
 // ada method info yang melakukan print = 'Jenis Kendaraan roda 4 dari negara Jerman';
-
 // 2. bikin child class (Mobil) dari Kendaraan, inherit attribut jenis kendaraan dan negara produksi dari super/parent class nya
 // attribut baru di child class ini yaitu Merek Kendaraan, Harga Kendaraan dan Persen Pajak
 // 3. ada method totalPrice yang melakukan proses menambah harga normal dengan persen pajak, yang RETURN hasil penjumlahan tersebut
@@ -13,12 +13,12 @@
 // kendaraan.info()
 // 2. const mobil = new Mobil(4, 'Jerman', 'Mercedes', 800000000, 10);
 // mobil.info()
-
 /** 
     NOTES
     rumus total price setelah di tambah pajak utk method totalPrice, bisa kalian googling sendiri yah.
 */
 
+//Implemtasi Coding
 //Class Super
 class Vehicle {
   constructor(rodaKendaraan, negaraProduksi) {
