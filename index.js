@@ -61,7 +61,7 @@ class Car extends Vehicle {
       "Kendaraan ini nama mereknya " +
         this.merekKendaraan +
         " dengan total harga Rp." +
-        this.totalHarga
+        this.totalHarga()
     );
   }
 }
